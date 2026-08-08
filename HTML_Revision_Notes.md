@@ -89,14 +89,18 @@ Used to display reserved/special characters.
 ```html
 <a href="https://google.com">Google</a>
 <a href="https://google.com" target="_blank">New tab</a>
+<a href="https://google.com" target="_self">Same tab (default)</a>
 <a href="#section2">Jump to section on same page</a>
 <a href="mailto:test@mail.com">Email link</a>
+<a href="resume.pdf" download>Download file</a>
 ```
 
 | Attribute | Purpose |
 |---|---|
 | `href` | Destination URL |
-| `target="_blank"` | Opens in new tab |
+| `target="_blank"` | Opens the link in a **new tab/window** |
+| `target="_self"` | Opens the link in the **same tab** (this is the default — you don't need to write it, but it's useful to know it exists) |
+| `download` | Instead of navigating to the link, it **downloads the file** to the user's device. Can also give it a custom filename: `<a href="resume.pdf" download="MyResume.pdf">Download</a>` |
 | `title` | Tooltip text on hover |
 
 ---
