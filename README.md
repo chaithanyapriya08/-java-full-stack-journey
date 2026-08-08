@@ -28,6 +28,15 @@ B.Tech graduate (ECE, 2026) transitioning into software development, currently p
 | 10 | Interview Prep & Placements | ⬜ Upcoming |
 
 ---
+🌐 Live Demos
+Click to view the actual rendered pages (not just code):
+
+* [Heading Tags Practice](https://chaithanyapriya08.github.io/-java-full-stack-journey/01-html/Daily_Practise/heading_tags.html)
+* [Marquee Practice](https://chaithanyapriya08.github.io/-java-full-stack-journey/01-html/Daily_Practise/marquee.html)
+* [Image Practice](https://chaithanyapriya08.github.io/-java-full-stack-journey/01-html/Daily_Practise/image.html)
+
+(More links added as new practice files are pushed.)
+---
 
 ## ✅ Month 1: HTML & CSS
 
