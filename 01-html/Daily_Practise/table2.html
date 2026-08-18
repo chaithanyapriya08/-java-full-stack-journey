@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Table with colspan and rowspan</h2>
+    <table border="3" width="200" height="200">
+            <td colspan="3"> King 1</td>
+             <!-- <td>King 2</td>
+              <td>King 3</td> -->
+        </tr>
+        <tr>
+             <td>King 4</td>
+              <td>King 5</td>
+               <td>King 6</td>
+        </tr>
+        <tr>
+             <td colspan="2">King 7</td> 
+              <!-- <td>King 8</td> -->
+               <td>King 9</td>
+        </tr>
+    </table>
+<br>
+<br>
+    <table border="3" width="200" height="200">
+            <td rowspan="3"> King 1</td>
+            <td>King 2</td>
+             <td>King 3</td> 
+        </tr>
+        <tr>
+             <!-- <td>King 4</td> -->
+              <td>King 5</td>
+               <td>King 6</td>
+        </tr>
+        <tr>
+             <!-- <td>King 7</td>  -->
+              <td>King 8</td> 
+               <td>King 9</td>
+        </tr>
+    </table>
+
+
+<br>
+<br>
+
+    <table border="3" width="300" height="300">
+      <tr>
+        <th colspan="3">Student</th>
+        <th colspan="2">Course</th>
+      </tr>
+      <tr>
+        <th colspan="2">Student Name</th>
+        <th>Student Batch</th>
+        <th>Course</th>
+        <th >Course Fees</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Hero1</td>
+        <td>Demo</td>
+        <td>Java</td>
+        <td rowspan="3" align="center">25000</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Hero2</td>
+        <td>13th</td>
+        <td>Java</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Hero3</td>
+        <td>13th</td>
+        <td>DotNet</td>
+      </tr>
+    </table>
+</body>
+</html>
